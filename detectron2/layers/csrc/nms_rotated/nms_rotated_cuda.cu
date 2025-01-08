@@ -7,6 +7,7 @@
 #include "../box_iou_rotated/box_iou_rotated_utils.h"
 #endif
 // TODO avoid this when pytorch supports "same directory" hipification
+#define WITH_HIP
 #ifdef WITH_HIP
 #include "box_iou_rotated/box_iou_rotated_utils.h"
 #endif
